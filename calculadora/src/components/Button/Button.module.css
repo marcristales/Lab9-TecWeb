@@ -1,0 +1,41 @@
+.button {
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button--light {
+    border: 2px solid #fff;
+    background-color: #CCE9FE;
+    color: #fff;
+}
+
+.button--dark {
+    border: none;
+    background-color: #303136;
+    color: #29A8FF;
+}
+
+.button--equals--light {
+    background-color: #19ACFF;
+    grid-column: 3 / 5;
+}
+
+.button--equals--dark {
+    background-color: #1991FF;
+    color: #FFF;
+    grid-column: 3 / 5;
+}
+
+button:active {
+    outline: 2px solid transparent;
+    box-shadow:
+        0 3px 3px rgba(0, 0, 0, 0.2) inset,
+        0 -3px 3px rgba(0, 0, 0, 0.2) inset,
+        3px 0 3px rgba(0, 0, 0, 0.2) inset,
+        -3px 0 3px rgba(0, 0, 0, 0.2) inset;
+}
