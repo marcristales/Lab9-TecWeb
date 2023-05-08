@@ -1,0 +1,21 @@
+.screen {
+    height: 100px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+.screen--light {
+    color: #000;
+}
+
+.screen--dark {
+    color: #fff;
+}
