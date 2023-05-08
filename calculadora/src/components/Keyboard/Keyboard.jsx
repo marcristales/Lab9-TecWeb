@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from './Keyboard.module.css'
 
-const Keyboard = () => {
+const Keyboard = ({ children }) => {
   return (
-    <div>Keyboard</div>
+    <div className={styles.keyboard}>
+      {children}
+    </div>
   )
 }
 
