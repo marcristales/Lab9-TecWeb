@@ -15,5 +15,10 @@ export default defineConfig({
       { find: '@', replacement: path.resolve(__dirname, './src') }
     ]
   },
+  test: {
+    setupFiles: './src/setupTests.js',
+    globals: true,
+    environment: 'jsdom'
+  },
   assetsDir: 'assets',
 })
