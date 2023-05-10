@@ -1,18 +1,11 @@
-.calculator {
-    width: 340px;
-    height: 640px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #83cdff 10%, #e7effa 80%);
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.calculator--light {
-    background-color: #fff;
-    background-image: linear-gradient(315deg, #83cdff 10%, #e7effa 80%);
-}
-
-.calculator--dark {
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #02080e 0%, #060708 60%);
+.cambiarTema {
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 2rem;
 }
