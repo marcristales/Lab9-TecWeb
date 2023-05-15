@@ -98,7 +98,7 @@ const Calculator = () => {
             <div className={styles.container}>
                 <div className={styles.calculadora}>
                     <Wrapper theme={theme}>
-                        <Display value={inputValue} theme={theme} />
+                        <Display value={inputValue} theme={theme} data-testid="calculator-display" />
                         <Keyboard>
                             {botones.flat().map((boton, index) => {
                                 return (
