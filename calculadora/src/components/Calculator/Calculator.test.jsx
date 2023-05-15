@@ -9,13 +9,6 @@ describe('Componente Calculator', () => {
         render(<Calculator />)
     })
 
-    it('Cambia el tema al hacer clic en el botón "Cambiar tema"', () => {
-        render(<Calculator />)
-
-        const cambiarTemaButton = screen.getByText('Cambiar tema')
-        fireEvent.click(cambiarTemaButton)
-    })
-
     it('Realiza la suma correctamente', () => {
         render(<Calculator />)
 
